@@ -38,19 +38,21 @@ echo "Submitting file '${SCAN_FILE_PATH}' for analysis.."
 # Temp file for the json results
 JSON_RESULTS_PATH="/tmp/BashFileProxyExample${RANDOM}.json"
 
-curl -XPOST "${PROXY_API}${FILE_UPLOAD_ENDPOINT}" -F "file=@${SCAN_FILE_PATH}" >> ${JSON_RESULTS_PATH}
+curl --silent -XPOST "${PROXY_API}${FILE_UPLOAD_ENDPOINT}" -F "file=@${SCAN_FILE_PATH}" >> ${JSON_RESULTS_PATH}
   
 echo "Done."
 
 # Display results
 REPORT_ID=$(cat ${JSON_RESULTS_PATH} | jq -r '.report_id')
+echo ""
 echo "--- Report Summary ---"
-echo -n "status: " && cat ${JSON_RESULTS_PATH} | jq -r '.status'
-echo -n "verdict: " && cat ${JSON_RESULTS_PATH} | jq -r '.verdict'
-echo -n "score: " && cat ${JSON_RESULTS_PATH} | jq -r '.score'
-echo -n "duration: " && cat ${JSON_RESULTS_PATH} | jq -r '.duration'
-echo -n "vendor: " && cat ${JSON_RESULTS_PATH} | jq -r '.meta_data.vendor_info.vendor'
+echo -n "Status: " && cat ${JSON_RESULTS_PATH} | jq -r '.status'
+echo -n "Verdict: " && cat ${JSON_RESULTS_PATH} | jq -r '.verdict'
+echo -n "Score: " && cat ${JSON_RESULTS_PATH} | jq -r '.score'
+echo -n "Duration: " && cat ${JSON_RESULTS_PATH} | jq -r '.duration'
+echo -n "Vendor: " && cat ${JSON_RESULTS_PATH} | jq -r '.meta_data.vendor_info.vendor'
+echo ""
 echo "Full results written to ${JSON_RESULTS_PATH}"
-echo "Full Report: https://secplugs.com/plugin_landing/viewreport.php?report_id=${REPORT_ID}"
+echo "See full report at: https://secplugs.com/plugin_landing/viewreport.php?report_id=${REPORT_ID}"
 echo ""
   
