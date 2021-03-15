@@ -15,7 +15,7 @@ if [[ $# -ne 1 ]]
 then 
     echo "Usage: BashFileProxyExample.sh <path to file>"
     SCAN_FILE_PATH='/tmp/eicar.com'
-    echo 'X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*' >> "${SCAN_FILE_PATH}"
+    echo 'X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*' > "${SCAN_FILE_PATH}"
     echo "Defaulting to ${SCAN_FILE_PATH}"
 else
 
@@ -40,7 +40,7 @@ echo "Submitting file '${SCAN_FILE_PATH}' for analysis.."
 JSON_RESULTS_PATH="/tmp/BashFileProxyExample${RANDOM}.json"
 
 # Make the call
-curl --silent -XPOST "${PROXY_API}${FILE_UPLOAD_ENDPOINT}" -F "file=@${SCAN_FILE_PATH}" >> ${JSON_RESULTS_PATH}
+curl --silent -XPOST "${PROXY_API}${FILE_UPLOAD_ENDPOINT}" -F "file=@${SCAN_FILE_PATH}" > ${JSON_RESULTS_PATH}
   
 echo "Done."
 
