@@ -44,7 +44,7 @@ echo "This example will send the specified test url '$TEST_URL' for analysis, wa
 for EP in "${ENDPOINTS[@]}"
 do
   echo ""
-  echo -n "Submitting URL '${1}' for  capabilty ${EP} analysis.."
+  echo -n "Submitting URL '${TEST_URL}' for  capabilty ${EP} analysis.."
   # We will use a temp file to store the curl output
   TEMP_FILE=/tmp/BashWebExample_${RANDOM}
   curl -X GET -G ${API}${EP}  \
@@ -83,7 +83,8 @@ do
   echo -n "score: " && cat ${TEMP_FILE} | jq -r '.score'
   echo -n "duration: " && cat ${TEMP_FILE} | jq -r '.duration'
   echo -n "vendor: " && cat ${TEMP_FILE} | jq -r '.meta_data.vendor_info.vendor'
-  echo -n "full results written to ${TEMP_FILE}"
+  echo "Full results written to ${TEMP_FILE}"
+  echo "Full Report: https://secplugs.com/plugin_landing/viewreport.php?report_id=${REPORT_ID}"
   echo ""
   
   
