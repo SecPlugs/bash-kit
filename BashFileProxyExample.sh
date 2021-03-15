@@ -8,6 +8,7 @@
 # Concepts: Secplugs proxy service
 # 
 
+echo "--- Bash Proxy File Example --- "
 
 # Usage
 if [[ $# -ne 1 ]] 
@@ -38,6 +39,7 @@ echo "Submitting file '${SCAN_FILE_PATH}' for analysis.."
 # Temp file for the json results
 JSON_RESULTS_PATH="/tmp/BashFileProxyExample${RANDOM}.json"
 
+# Make the call
 curl --silent -XPOST "${PROXY_API}${FILE_UPLOAD_ENDPOINT}" -F "file=@${SCAN_FILE_PATH}" >> ${JSON_RESULTS_PATH}
   
 echo "Done."
