@@ -1,6 +1,6 @@
 #!/bin/bash
 # 
-# Title: Bash Example Secplugs Web Plugin
+# Title: Bash Proxy File Example
 # Author: TheStig@secplugs.com
 # 
 # Purpose: This example submits a file for scanning using the proxy services
@@ -38,7 +38,7 @@ echo "Submitting file '${SCAN_FILE_PATH}' for analysis.."
 # Temp file for the json results
 JSON_RESULTS_PATH="/tmp/BashFileProxyExample${RANDOM}.json"
 
-curl -XPOST "${PROXY_API}${FILE_UPLOAD_ENDPOINT}" -F "file=@${SCAN_FILE_PATH}" > ${JSON_RESULTS_PATH}
+curl -XPOST "${PROXY_API}${FILE_UPLOAD_ENDPOINT}" -F "file=@${SCAN_FILE_PATH}" >> ${JSON_RESULTS_PATH}
   
 echo "Done."
 
