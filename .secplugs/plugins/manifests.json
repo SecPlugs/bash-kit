@@ -1,9 +1,9 @@
 [
         {
                 "name" : "bash_kit",
-                "type" : "Bash Sample Kit",
-                "title" : "Web Secure",
-                "description" : "Working examples written in BASH ready to use as is or extend.",
+                "type" : "generic",
+                "title" : "Bash Sample Kit",
+                "description" : "Working examples written in BASH.",
                 "summary_html" : "@.secplugs/plugins/bash_kit/summary.html",
                 "detail_html" : "@.secplugs/plugins/bash_kit/detail.html",
                 "small_image" : "@.secplugs/plugins/bash_kit/small_image.png",
