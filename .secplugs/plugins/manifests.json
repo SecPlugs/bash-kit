@@ -3,6 +3,7 @@
                 "name" : "bash_kit",
                 "type" : "generic",
                 "title" : "Bash Sample Kit",
+                "created_by" : "TheStig@secplugs.com",
                 "description" : "Working examples written in BASH.",
                 "summary_html" : "@.secplugs/plugins/bash_kit/summary.html",
                 "detail_html" : "@.secplugs/plugins/bash_kit/detail.html",
