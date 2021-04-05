@@ -8,6 +8,9 @@
                 "summary_html" : "@.secplugs/plugins/bash_kit/summary.html",
                 "detail_html" : "@.secplugs/plugins/bash_kit/detail.html",
                 "small_image" : "@.secplugs/plugins/bash_kit/small_image.png",
-                "normal_image" : "@.secplugs/plugins/bash_kit/normal_image.png"
+                "normal_image" : "@.secplugs/plugins/bash_kit/normal_image.png",
+                "download_link" : "https://github.com/SecPlugs/bash-kit/wiki/Downloads",
+                "github_link" : "https://github.com/SecPlugs/bash-kit",
+                "more_info_link" : "https://github.com/SecPlugs/bash-kit/wiki"
         }
 ]
