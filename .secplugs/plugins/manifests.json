@@ -1,16 +1,24 @@
 [
-        {
-                "name" : "bash_kit",
-                "type" : "generic",
-                "title" : "Bash Sample Kit",
-                "created_by" : "TheStig@secplugs.com",
-                "description" : "Working examples written in BASH.",
-                "summary_html" : "@.secplugs/plugins/bash_kit/summary.html",
-                "detail_html" : "@.secplugs/plugins/bash_kit/detail.html",
-                "small_image" : "@.secplugs/plugins/bash_kit/small_image.png",
-                "normal_image" : "@.secplugs/plugins/bash_kit/normal_image.png",
-                "download_link" : "https://github.com/SecPlugs/bash-kit/wiki/Downloads",
-                "github_link" : "https://github.com/SecPlugs/bash-kit",
-                "more_info_link" : "https://github.com/SecPlugs/bash-kit/wiki"
-        }
+  {
+    "name":"bash_kit",
+    "type":"generic",
+    "title":"Bash Sample Kit",
+    "created_by":"TheStig@secplugs.com",
+    "description":"Working examples written in BASH.",
+    "content":{
+      "summary":"@.secplugs/plugins/bash_kit/summary.html",
+      "detail":"@.secplugs/plugins/bash_kit/detail.html"
+    },
+    "images":{
+      "small":"@.secplugs/plugins/bash_kit/small_image.png",
+      "normal":"@.secplugs/plugins/bash_kit/normal_image.png",
+      "gallery":[
+        
+      ]
+    },
+    "links":{
+      "download":"https://github.com/SecPlugs/bash-kit/wiki/Downloads",
+      "github":"https://github.com/SecPlugs/bash-kit"
+    }
+  }
 ]
