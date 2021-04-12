@@ -15,11 +15,11 @@
       "gallery":[
         {
           "img":"@.secplugs/plugins/bash_kit/gallery/screen_shot_0.png",
-          "caption":"Submit a file for analyis and print the results and report link."
+          "caption":"Submit a file for analysis, print the results including the report link."
         },
         {
           "img":"@.secplugs/plugins/bash_kit/gallery/screen_shot_1.png",
-          "caption":"See the report in the portal by following the link."
+          "caption":"See the report in the portal by opening the report link."
         }
       ] 
     },
