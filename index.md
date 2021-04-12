@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Bash Kit Plugin Docs
 
 You can use the [editor on GitHub](https://github.com/SecPlugs/bash-kit/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
