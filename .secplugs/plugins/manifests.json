@@ -13,13 +13,6 @@
       "small":"@.secplugs/plugins/bash_kit/small_image.png",
       "normal":"@.secplugs/plugins/bash_kit/normal_image.png",
       "gallery":[
-        
-      ]
-    },
-    "links":{
-      "download":"https://github.com/SecPlugs/bash-kit/wiki/Downloads",
-      "github":"https://github.com/SecPlugs/bash-kit",
-      "gallery":[
         {
           "img":"@store_listing/screen_shot_0.png",
           "caption":"Submit a file for analyis and print the results and report link."
@@ -28,7 +21,12 @@
           "img":"@store_listing/screen_shot_1.png",
           "caption":"See the report in the portal by following the link."
         }
-      ]
+      ] 
+    },
+    "links":{
+      "download":"https://github.com/SecPlugs/bash-kit/wiki/Downloads",
+      "github":"https://github.com/SecPlugs/bash-kit",
+     
     }
   }
 ]
