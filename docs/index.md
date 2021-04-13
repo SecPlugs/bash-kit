@@ -2,7 +2,7 @@
 ### Downloads
 Downloads will be included here
 ### Summary
-Summary goes here
+{% include_relative summary.md %}
 
 ### Details goes here
 Summary goes here
