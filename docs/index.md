@@ -14,7 +14,6 @@ chmod +x ./BashFileProxyExample.sh
 * [BashWebExample.sh](https://raw.githubusercontent.com/SecPlugs/bash-kit/main/BashWebExample.sh) - Specify a URL on the command line and the script will send it for analysis and display the result.
 
 ### Summary
-{% include_relative ./summary.md %}
 
 
 ### Support or Contact
