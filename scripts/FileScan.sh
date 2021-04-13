@@ -8,12 +8,12 @@
 # Concepts: Secplugs proxy service
 # 
 
-echo "--- Bash Proxy File Example --- "
+echo "--- File Scan --- "
 
 # Usage
 if [[ $# -ne 1 ]] 
 then 
-    echo "Usage: BashFileProxyExample.sh <path to file>"
+    echo "Usage: FileScan.sh <path to file>"
     SCAN_FILE_PATH='/tmp/eicar.com'
     echo 'X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*' > "${SCAN_FILE_PATH}"
     echo "Defaulting to ${SCAN_FILE_PATH}"
