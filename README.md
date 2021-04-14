@@ -1,6 +1,6 @@
 # Secplugs Bash Kit
 A set of examples and tools written in bash. A great place to start integration from the Linux Shell  
-![CICD](https://github.com/SecPlugs/bash-kit/actions/workflows/CICD/badge.svg)
+![CICD](https://github.com/SecPlugs/bash-kit/workflows/CICD/badge.svg)
 
 
 ## Usage & More Info
