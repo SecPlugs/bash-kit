@@ -19,11 +19,11 @@ jobs:
 
       - name: Run Tests
         run: |
-          ./bin/runTests.sh
+          ./build/runTests.sh
 
       - name: Package
         if: success()
         run: |
-          ./bin/packageDocs.sh
+          ./build/packageDocs.sh
 
  

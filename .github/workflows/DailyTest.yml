@@ -1,7 +1,7 @@
 # This is regular daily test
 
 
-name: Regular Scenario Test
+name: Daily Test
 
 
 on:
@@ -22,5 +22,5 @@ jobs:
 
       - name: Run Tests
         run: |
-          ./bin/runTests.sh
+          ./build/runTests.sh
           
