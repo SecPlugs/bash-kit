@@ -6,8 +6,8 @@
     "created_by":"TheStig@secplugs.com",
     "description":"Working examples written in BASH.",
     "content":{
-      "summary":"@.secplugs/plugins/docs/summary.html",
-      "detail":"@.secplugs/plugins/docs/detail.html"
+      "summary":"@docs/summary.html",
+      "detail":"@docs/detail.html"
     },
     "images":{
       "small":"@.secplugs/plugins/bash_kit/small_image.png",
