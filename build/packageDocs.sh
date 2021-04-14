@@ -3,7 +3,7 @@
 
 
 echo "Making BashKit.zip.."
-zip ./download/BashKit.zip ./scripts/*
+zip --junk-paths ./download/BashKit.zip ./scripts/*
 
 echo "Generating usage.."
 ./build/showUsage.sh > ./docs/usage.md
