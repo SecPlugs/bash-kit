@@ -3,10 +3,10 @@
 Downloads will be included here
 
 ### Summary
-{% include_relative summary.md %}
+{% include_relative summary.html %}
 
 ### About
-{% include_relative detail.md %}
+{% include_relative detail.html %}
 
 ### Support or Contact
 
