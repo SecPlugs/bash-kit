@@ -10,7 +10,7 @@ then
 
 else
 
-    # Extract lines that start with '#md '
-    cat "$1" | grep '^#md ' | sed  's/^#md //g' 
+    # Extract lines that start with '#: '
+    cat "$1" | grep '^#: ' | sed  's/^#: //g' 
    
 fi
