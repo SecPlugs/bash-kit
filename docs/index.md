@@ -1,11 +1,12 @@
 
 ### Downloads
 Downloads will be included here
+
 ### Summary
 {% include_relative summary.md %}
 
-### Details goes here
-Summary goes here
+### About
+{% include_relative detail.md %}
 
 ### Support or Contact
 
