@@ -1,5 +1,5 @@
 #!/bin/bash
-# Extracts and displays usage comments from the scripts
+# Extracts and displays usage comments from the scripts - used to build docs
 
 # Do we have a file path on the command line?
 if [ -z "$1"  ]
