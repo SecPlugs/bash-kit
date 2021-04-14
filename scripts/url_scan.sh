@@ -1,19 +1,26 @@
 #!/bin/bash
 # 
-# Title: Bash Example Secplugs Web Plugin
-# Author: TheStig@secplugs.com
-# 
-# Purpose: This example submits a url to webscore and webquickscan, waits in the report_id 
-# and then prints out the results
-#
 # Concepts: Web End Points, API Keys, A synchronous
 # 
+#!/bin/bash
+# Note the '#:' prefix below is used to extract and auto build the docs
+# 
+#: ### url_scan.sh - Url Analysis Script
+#: Use this script for submitting urls for analysis
+#: To scan a url, pass it as a parameter  
+#: E.g. below shows scanning of a Secplugs test url
+#: ```console
+#: ./url_scan.sh https://example.com/?param=e81e043973f21d036e39fe
+#: ```
 
+
+# Include utils
+source "$(dirname "$0")/sp_utils.sh"
 
 # Usage
 if [[ $# -ne 1 ]] 
 then 
-    echo "Usage: BashWebExample.sh <URL>"
+    echo "Usage: url_scan.sh <URL>"
     TEST_URL="https://www.example.com"
     echo "Defaulting to ${TEST_URL}"
 else
