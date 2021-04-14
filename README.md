@@ -1,15 +1,19 @@
 # Secplugs Bash Kit
 A set of examples and tools written in bash. A great place to start integration from the Linux Shell
 
-## Usage
-See githib pages for usage information
+## Usage & More Info
+See the [Bash Kit GitHub Pages](https://secplugs.github.io/bash-kit/docs) for usage and other information
 
-## Repo Layout
+## Repository Layout
+This repository is laid out as follows..
 
-/.secplugs contains the manifest and meta data to import into the Secplugs portal
-/scripts the BASH scripts 
-/docs the documents file that form the GitHub Pages site
-/build build and test scripts 
+| Folder        | Description |
+| ------------- |:-------------:| 
+| .secplugs     | contains the meta data to import into the Secplugs portal |
+| scripts       | core scripts that use the Secplugs platform      |
+| download      | downloadable items for the GitHub pages     |
+| build         | build, package and publish scripts  |
+
 
 ## Build
 
