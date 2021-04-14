@@ -6,8 +6,8 @@
     "created_by":"TheStig@secplugs.com",
     "description":"Working examples written in BASH.",
     "content":{
-      "summary":"@.secplugs/plugins/bash_kit/summary.html",
-      "detail":"@.secplugs/plugins/bash_kit/detail.html"
+      "summary":"@.secplugs/plugins/docs/summary.html",
+      "detail":"@.secplugs/plugins/docs/detail.html"
     },
     "images":{
       "small":"@.secplugs/plugins/bash_kit/small_image.png",
@@ -24,9 +24,9 @@
       ] 
     },
     "links":{
-      "download":"https://github.com/SecPlugs/bash-kit/wiki/Downloads",
+      "download":"https://github.com/SecPlugs/bash-kit/wiki/docs/download/BashKit.zip",
       "github":"https://github.com/SecPlugs/bash-kit",
-      "more_info" : "https://secplugs.github.io/bash-kit/"
+      "more_info" : "https://secplugs.github.io/bash-kit/docs"
     }
   }
 ]
