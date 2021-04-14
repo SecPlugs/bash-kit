@@ -1,5 +1,6 @@
-![CICD]https://github.com/secplugs/bashkit/actions/workflows/CICD/badge.svg
-![Daily Tests]https://github.com/secplugs/bashkit/actions/workflows/Daily Tests/badge.svg
+![CICD](https://github.com/secplugs/bashkit/actions/workflows/CICD/badge.svg)
+![Daily Tests](https://github.com/secplugs/bashkit/actions/workflows/Daily Tests/badge.svg)
+
 
 # Secplugs Bash Kit
 A set of examples and tools written in bash. A great place to start integration from the Linux Shell
