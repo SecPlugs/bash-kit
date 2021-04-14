@@ -14,8 +14,3 @@ This repository is laid out as follows..
 | download      | downloadable items for the GitHub pages     |
 | build         | build, package and publish scripts  |
 
-
-## Build
-
-- [ ] add doc build and package step 
-- 
