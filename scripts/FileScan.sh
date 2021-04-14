@@ -1,11 +1,15 @@
 #!/bin/bash
 # 
-# Title: Bash Proxy File Example
-# Author: TheStig@secplugs.com
-# 
-# Purpose: This example submits a file for scanning using the proxy services
-#
-# Concepts: Secplugs proxy service
+#md ##FileScan.sh - File Analysis Script
+#md Use this script for submitting files for analysis
+#md To test connectivity run without no argument, it will default to scanning eicar.  
+#md ```console
+#md ./FileScan.sh
+#md ```
+#md To scan a named file, put the filename on the path. E.g. to have it scan itself use below.
+#md ```console
+#md ./FileScan.sh ./FileScan.sh
+#md ```
 # 
 
 echo "--- File Scan --- "
