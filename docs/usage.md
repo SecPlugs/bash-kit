@@ -1,4 +1,4 @@
-##file_scan.sh - File Analysis Script
+## file_scan.sh - File Analysis Script
 Use this script for submitting files for analysis
 To test connectivity run without no argument, it will default to scanning eicar.  
 ```console
