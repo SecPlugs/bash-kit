@@ -5,7 +5,7 @@
 {% include_relative _summary.md %}
 
 ## About
-{% include_relative detail.html %}
+{% include_relative _detail.html %}
 
 ## Get Started
 Download using the link at the top of the page and extract to a folder.  
