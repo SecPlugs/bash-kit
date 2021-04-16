@@ -1,4 +1,4 @@
-#### What is the Bash Sample Kit?
+#### What is the Bash Kit?
 
 A collection of BASH shell scripts that run on Linux systems and allow you to submit urls and files for analysis using the Secplugs platform backend.
 The plugin is designed either for general usage as is or as a starting point for other projects.
