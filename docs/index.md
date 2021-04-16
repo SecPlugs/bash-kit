@@ -7,7 +7,7 @@
 ## About
 {% include_relative _detail.md %}
 
-## Get Started
+## Quick Start
 Download using the link at the top of the page and extract to a folder.  
 Or simply run the commands below in any BASH shell.
 ```console
