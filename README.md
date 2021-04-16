@@ -11,7 +11,7 @@ See the [Bash Kit GitHub Pages](https://secplugs.github.io/bash-kit/docs) for us
 This repository is laid out as follows..
 
 | Folder        | Description |
-| ------------- |:-------------:| 
+| ------------- |:-------------| 
 | .secplugs     | contains the meta data to import into the Secplugs portal |
 | scripts       | core scripts that use the Secplugs platform      |
 | download      | downloadable items for the GitHub pages     |
