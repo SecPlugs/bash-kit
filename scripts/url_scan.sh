@@ -9,7 +9,7 @@
 #: Use this script for submitting urls for analysis
 #: To scan a url, pass it as a parameter  
 #: E.g. below shows scanning of a Secplugs test url
-#: ```console
+#: ```sh
 #: ./url_scan.sh https://example.com/?param=e81e043973f21d036e39fe
 #: ```
 
