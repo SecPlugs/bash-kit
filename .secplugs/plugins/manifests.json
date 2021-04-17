@@ -4,7 +4,7 @@
     "type":"generic",
     "title":"Bash Kit",
     "created_by":"TheStig@secplugs.com",
-    "description":"Working scripts written in BASH.",
+    "description":"Easily analyze objects from within your BASH scripts.",
     "content":{
       "summary":"https://secplugs.github.io/bash-kit/docs/summary.html",
       "detail":"https://secplugs.github.io/bash-kit/docs/detail.html"
