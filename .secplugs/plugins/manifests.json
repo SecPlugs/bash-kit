@@ -2,7 +2,7 @@
   {
     "name":"bash_kit",
     "type":"generic",
-    "title":"Bash Kit",
+    "title":"BASH Kit",
     "created_by":"TheStig@secplugs.com",
     "description":"Easily analyze objects from within your scripts.",
     "content":{
