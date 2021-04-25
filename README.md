@@ -5,7 +5,7 @@
 A set of examples and tools written in bash. A great place to start using Secplusg from the Linux Shell! 
 
 ## Usage & More Info
-See the [Bash Kit GitHub Pages](https://secplugs.github.io/bash-kit/docs) for usage and other information
+See the [Bash Kit GitHub Pages](https://docs.secplugs.com/bash-kit/docs) for usage and other information
 
 ## Repository Layout
 This repository is laid out as follows..

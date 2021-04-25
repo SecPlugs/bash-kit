@@ -19,7 +19,7 @@ The scripts come pre-configured to use the anonymous API keys, so they will work
 #### How do I get started?
 
 Simply follow the download link, download the .sh files run them on any Linux system. They will work out of the box with no configuration.  
-Read the comments in the scripts or the [Quick Start](https://secplugs.github.io/bash-kit/docs/) to learn how to modify.  
+Read the comments in the scripts or the [Quick Start](https://docs.secplugs.com/bash-kit/docs/) to learn how to modify.  
 
 To use additional features and the privacy of your own account, after registering in Secplugs.com, login with your username and create an API key to use with the scripts. 
 You can then use the Secplugs console to view activity, run reports and do deeper retrospective threat analysis.

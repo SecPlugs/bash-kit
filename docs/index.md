@@ -11,7 +11,7 @@
 Download using the link at the top of the page and extract to a folder.  
 Or simply run the commands below in any BASH shell.
 ```console
-curl https://secplugs.github.io/bash-kit/download/BashKit.zip -o ./BashKit.zip
+curl https://docs.secplugs.com/bash-kit/download/BashKit.zip -o ./BashKit.zip
 unzip -o BashKit.zip
 chmod +x ./*.sh
 ```
