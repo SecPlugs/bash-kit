@@ -6,7 +6,7 @@ if [ -z "$1"  ]
 then
 
     # No file path - we enumerate, sort in last modified and recurse
-    find . -name "*.sh" -exec ls -t "{}" + | xargs -I % ./build/showUsage.sh %
+    find . -name "*.sh" -exec ls -t "{}" + | xargs -I % ./bin/showUsage.sh %
 
 else
 
