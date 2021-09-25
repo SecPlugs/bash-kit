@@ -1,4 +1,4 @@
-![CICD](https://github.com/SecPlugs/java-kit/workflows/CICD/badge.svg)
+![CICD](https://github.com/SecPlugs/bash-kit/workflows/CICD/badge.svg)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![Daily Test](https://github.com/SecPlugs/bash-kit/workflows/DailyTest/badge.svg)
 
