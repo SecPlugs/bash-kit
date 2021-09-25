@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![Daily Test](https://github.com/SecPlugs/bash-kit/workflows/DailyTest/badge.svg)
 
-A set of examples and tools written in bash. A great place to start using Secplusg from the Linux Shell! 
+A set of examples and tools written in bash. A great place to start using SecPlugs from the Linux Shell! 
 
 ## Usage & More Info
 See the [Bash Kit GitHub Pages](https://docs.secplugs.com/bash-kit/docs) for usage and other information
