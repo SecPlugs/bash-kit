@@ -23,7 +23,7 @@ function submit_file {
   json_results_path="/tmp/file_scan${RANDOM}.json"
   
   # Make the call
-  curl --silent -XPOST "${PROXY_API}${FILE_UPLOAD_ENDPOINT}" -F "file=@${scan_file_path}" > ${json_results_path}
+  curl -XPOST "${PROXY_API}${FILE_UPLOAD_ENDPOINT}" -F "file=@${scan_file_path}" > ${json_results_path}
     
   echo "."
   
