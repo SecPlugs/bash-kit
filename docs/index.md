@@ -1,7 +1,7 @@
 ---
 layout: none
 ---
-## Summary
+## Bash Kit
 {% include_relative _summary.md %}
 
 ## About
@@ -22,4 +22,4 @@ Each script has usage examples as comments within the script but also here for r
 {% include_relative usage.md %}
 
 ## Contact
-Having trouble? [Contact Secplugs ](https://secplugs.com/contacts)
+Having trouble? [Contact {brand-name} ](https://{brand-root-domain}/contacts)

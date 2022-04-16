@@ -1,7 +1,7 @@
 ### url_scan.sh - Url Analysis Script
 Use this script for submitting urls for analysis
 To scan a url, pass it as a parameter  
-E.g. below shows scanning of a Secplugs test url
+E.g. below shows scanning of a test url
 ```sh
 ./url_scan.sh https://example.com/?param=e81e043973f21d036e39fe
 ```

@@ -1,6 +1,6 @@
 #### What is the Bash Kit?
 
-A collection of BASH shell scripts that run on Linux systems and allow you to submit urls and files for analysis using the Secplugs platform backend.
+A collection of BASH shell scripts that run on Linux systems and allow you to submit urls and files for analysis using the {brand-name} platform backend.
 The plugin is designed either for general usage as is or as a starting point for other projects.
 
 #### What are the features?
@@ -9,7 +9,7 @@ The plugin is designed either for general usage as is or as a starting point for
 - __URL scanning__ - Send urls for analysis.
 - __Realy simply to use__ - Works out of the box with the anonymous free tier usage.
 - __Run anyware__ - Works on any system with a BASH shell, Linux, Mac OSX, Chrome etc
-- __Secplugs Portal__ - With a registered API key you can access all the core Secplugs features via the portal.
+- __{brand-name} Portal__ - With a registered API key you can access all the core {brand-name} features via the portal.
 
 #### How does it work?
 
@@ -19,7 +19,7 @@ The scripts come pre-configured to use the anonymous API keys, so they will work
 #### How do I get started?
 
 Simply follow the download link, download the .sh files run them on any Linux system. They will work out of the box with no configuration.  
-Read the comments in the scripts or the [Quick Start](https://docs.secplugs.com/bash-kit/docs/) to learn how to modify.  
+Read the comments in the scripts or see the Quick Start section to see how to modify.  
 
-To use additional features and the privacy of your own account, after registering in Secplugs.com, login with your username and create an API key to use with the scripts. 
-You can then use the Secplugs console to view activity, run reports and do deeper retrospective threat analysis.
+To use additional features and the privacy of your own account, after registering with {brand-name}, login with your username and create an API key to use with the scripts. 
+You can then use the {brand-name} portal to view activity, run reports and do deeper retrospective threat analysis.
