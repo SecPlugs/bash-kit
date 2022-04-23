@@ -1,13 +1,16 @@
 ---
 layout: none
 ---
-## Bash Kit
-{% include_relative _summary.md %}
+# BASH Kit Tech Docs
+## Summary
+{% include_relative summary.md %}
+
+Also see [Bash Kit Listing](https://{/plugin-list/plugin-secplugs-bash-kit)
 
 ## Quick Start
-Download using the link at the top of the page and extract to a folder.  
+Download from [BashKit.zip](https://docs.secplugs.com/bash-kit/download/BashKit.zip) and extract to a folder.  
 Or simply run the commands below in any BASH shell.
-```console
+```bash
 curl https://docs.secplugs.com/bash-kit/download/BashKit.zip -o ./BashKit.zip
 unzip -o BashKit.zip
 chmod +x ./*.sh
