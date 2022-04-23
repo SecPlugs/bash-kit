@@ -1,3 +1,6 @@
+---
+layout: none
+---
 Working scripts and tools written in BASH ready to use as is or extend.  
 For example, upload files for scanning or grepping logs for URLs for scanning. 
   
