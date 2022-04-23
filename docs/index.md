@@ -1,11 +1,11 @@
 ---
 layout: none
 ---
-# BASH Kit Tech Docs
+# BASH Kit
 ## Summary
 {% include_relative summary.md %}
 
-Also see [Bash Kit Listing](https://{/plugin-list/plugin-secplugs-bash-kit)
+Also see [Bash Kit Listing](/plugin-list/plugin-secplugs-bash-kit)
 
 ## Quick Start
 Download from [BashKit.zip](https://docs.secplugs.com/bash-kit/download/BashKit.zip) and extract to a folder.  
