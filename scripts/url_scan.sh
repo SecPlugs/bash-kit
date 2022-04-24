@@ -8,7 +8,7 @@
 #: ### url_scan.sh - Url Analysis Script
 #: Use this script for submitting urls for analysis
 #: To scan a url, pass it as a parameter  
-#: E.g. below shows scanning of a Secplugs test url
+#: E.g. below shows scanning of a test url
 #: ```sh
 #: ./url_scan.sh https://example.com/?param=e81e043973f21d036e39fe
 #: ```
@@ -32,7 +32,7 @@ fi
 # This is the default anonymous api key
 # Note: The below keys are public domain and do not need to be kept secret. 
 # They are protected from abuse with usage quotas.
-TEST_API_KEY=r2iKI4q7Lu91Nu5uPl3eW3BPmRo4XK1ZbhLWtOKd
+SP_API_KEY=r2iKI4q7Lu91Nu5uPl3eW3BPmRo4XK1ZbhLWtOKd
 
 # The production api
 API=https://api.live.secplugs.com/security
@@ -57,7 +57,7 @@ do
   curl -X GET -G ${API}${EP}  \
        --data-urlencode "url=$TEST_URL" \
        -H "Accept: application/json" \
-       -H "x-api-key: ${TEST_API_KEY}" \
+       -H "x-api-key: ${SP_API_KEY}" \
        --http1.1 \
        --silent > ${TEMP_FILE}
        
@@ -73,7 +73,7 @@ do
   until [[ $JOB_STATUS == "success" ]]; do  
       curl -X GET -G ${API}/report/${REPORT_ID} \
            -H "Accept: application/json" \
-           -H "x-api-key: ${TEST_API_KEY}" \
+           -H "x-api-key: ${SP_API_KEY}" \
            --http1.1 \
            --silent > ${TEMP_FILE}
     

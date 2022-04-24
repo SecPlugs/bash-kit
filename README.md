@@ -5,15 +5,6 @@
 A set of examples and tools written in bash. A great place to start using SecPlugs from the Linux Shell! 
 
 ## Usage & More Info
-See the [Bash Kit GitHub Pages](https://docs.secplugs.com/bash-kit/docs) for usage and other information
+See the [Bash Kit Docs](https://scancloud.io/index.php/docs?plugin=plugin-secplugs-bash-kit) for usage and other information
 
-## Repository Layout
-This repository is laid out as follows..
-
-| Folder        | Description |
-| ------------- |:-------------| 
-| .secplugs     | contains the meta data to import into the Secplugs portal |
-| scripts       | core scripts that use the Secplugs platform      |
-| download      | downloadable items for the GitHub pages     |
-| build         | build, package and publish scripts  |
 

@@ -2,10 +2,13 @@
 # Common functions and globals
 
 
-# Note: This is the default anonymous api key
-# The below keys are public domain and do not need to be kept secret. 
-# They are protected from abuse with usage quotas.
-TEST_API_KEY=r2iKI4q7Lu91Nu5uPl3eW3BPmRo4XK1ZbhLWtOKd
+if [ -z "${SP_API_KEY}" ]; then 
+  echo "Using default API Key"
+  # Note: This is the default anonymous api key
+  # The below keys are public domain and do not need to be kept secret. 
+  # They are protected from abuse with usage quotas.
+  SP_API_KEY=r2iKI4q7Lu91Nu5uPl3eW3BPmRo4XK1ZbhLWtOKd
+fi
 
 # The proxy api and file upload endpoint
 PROXY_API='https://proxy.secplugs.com'

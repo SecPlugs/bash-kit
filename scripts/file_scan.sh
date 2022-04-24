@@ -1,28 +1,10 @@
 #!/bin/bash
-# Note the '#:' prefix below is used to extract and auto build the docs
-# 
-#: ### file_scan.sh - File Analysis Script
-#: Use this script for submitting files for analysis
-#: To test connectivity run without no argument, it will default to scanning eicar.  
-#: ```sh
-#: ./file_scan.sh
-#: ```
-#: To scan a named file, pass the file as a parameter  
-#: E.g. to have it scan itself use below.
-#: ```sh
-#: ./file_scan.sh ./file_scan.sh
-#: ```
-#: To scan the contents of named directory, specify a directory as parameter
-#: E.g. to scan the contents of the /tmp
-#: ```sh
-#: ./file_scan.sh /tmp
-#: ```
 
 # Include utils
 source "$(dirname "$0")/sp_utils.sh"
 
 # Welcome
-echo "file_scan.sh - Secplugs File Analysis Script"
+echo "file_scan.sh - File Analysis Script"
 
 # Look for no param case
 if [[ $# -ne 1 ]] 
