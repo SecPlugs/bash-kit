@@ -53,7 +53,7 @@ To use additional features and the privacy of your own account, after registerin
 After creating a key, the only change is to set the SP_API_KEY environment variable before running the scripts
 
 ```bash
-export SP_API_KEY="my-api-key"
+export SP_API_KEY="your-api-key"
 ```
 
 ## Contact
