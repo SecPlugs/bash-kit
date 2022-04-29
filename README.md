@@ -5,6 +5,6 @@
 A set of examples and tools written in bash. A great place to start using SecPlugs from the Linux Shell! 
 
 ## Usage & More Info
-See the [Bash Kit Docs](https://scancloud.io/index.php/docs?plugin=plugin-secplugs-bash-kit) for usage and other information
+See the [Bash Kit Docs](https://{brand-root-domain}/index.php/docs?plugin=plugin-secplugs-bash-kit) for usage and other information
 
 
