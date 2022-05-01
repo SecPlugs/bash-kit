@@ -3,7 +3,7 @@
     "name":"bash_kit",
     "type":"generic",
     "title":"BASH Kit",
-    "created_by":"TheStig@secplugs.com",
+    "created_by":"TheStig@scancloud.io",
     "description":"Easily analyze objects from within your scripts.",
     "content":{
       "summary":"https://secplugs.github.io/bash-kit/docs/summary.html",
